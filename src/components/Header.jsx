@@ -1,27 +1,5 @@
 import React, { useState } from "react";
-
-const headerNav = [
-  {
-    title: "INTRO",
-    url: "#intro"
-  },
-  {
-    title: "SKILL",
-    url: "#skill"
-  },
-  {
-    title: "SITE",
-    url: "#site"
-  },
-  {
-    title: "PORTFOLIO",
-    url: "#portfolio"
-  },
-  {
-    title: "CONTACT",
-    url: "#contact"
-  },
-];
+import  { headerNav } from "../constants"
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -44,7 +22,7 @@ const Header = () => {
           <ul>
             {headerNav.map((nav, key) => (
               <li key={key}>
-                <a href="{nav.url}">{nav.title}</a>
+                <a href={nav.url}>{nav.title}</a>
               </li>
             ))}
           </ul>

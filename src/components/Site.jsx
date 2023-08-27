@@ -1,35 +1,5 @@
 import React from "react";
-
-const siteText = [
-  {
-    text: ["MAKE","SITE COMPLIANT WITH","WEBSTANDARD",],
-    title: "웹 표준을 준수한 사이트 제작",
-    code: "https://github.com/chloe-20/portfolio2023-vite",
-    view: "https://portfolio2023-vite.netlify.app/",
-    info: ["SITE CODING","PRODUCTION PERIOD : TWO DAYS","USE STACK : HTML5/CSS3, CSS VARIABLE, VITE",],    
-  },
-  {
-    text: ["MAKE","SITE COMPLIANT WITH","REACT.JS",],
-    title: "리액트를 이용한 사이트 제작",
-    code: "https://github.com/chloe-20/portfolio2023-react",
-    view: "https://portfolio2023-react.netlify.app/",
-    info: ["SITE CODING","PRODUCTION PERIOD : TWO DAYS","USE STACK : HTML5/CSS3, CSS VARIABLE, REACT.JS",],
-  },
-  {
-    text: ["MAKE","SITE COMPLIANT WITH","VUE.JS",],
-    title: "뷰를 이용한 사이트 제작",
-    code: "https://github.com/chloe-20/portfolio2023-vue",
-    view: "https://portfolio2023-vue.netlify.app/",
-    info: ["SITE CODING","PRODUCTION PERIOD : TWO DAYS","USE STACK : HTML5/CSS3, CSS VARIABLE, VUE.JS",],
-  },
-  {
-    text: ["MAKE","SITE COMPLIANT WITH","NEXT.JS",],
-    title: "넥스트를 이용한 사이트 제작",
-    code: "https://github.com/chloe-20/portfolio2023-next",
-    view: "https://portfolio2023-next.netlify.app/",
-    info: ["SITE CODING","PRODUCTION PERIOD : TWO DAYS","USE STACK : HTML5/CSS3, CSS VARIABLE, NEXT.JS",],
-  },
-];
+import  { siteText } from "../constants"
 
 const Site = () => {
   return (

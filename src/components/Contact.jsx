@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="contact__text">
           <div className="text">                        
             <div>
-              <a href="mailto:202.worker@gmail.com" rel="noopener  noreferrer" target="_blank">MAIL : 202.worker@gmail.com</a>
+              <a href="mailto:202.worker@gmail.com" rel="noopener noreferrer" target="_blank">MAIL : 202.worker@gmail.com</a>
             </div>
           </div>
         </div>
